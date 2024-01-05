@@ -3,6 +3,7 @@
 import React, { useEffect } from 'react';
 import Title from './components/title';
 import About from './components/about';
+
 export default function Home() {
 
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <div className="flex flex-col w-1/3 mr-8"></div>
         <About />
       </div>
+
     </body>
   );
 }

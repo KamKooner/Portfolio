@@ -13,17 +13,17 @@ export default function title() {
 
 
 
-      <div className="mt-16 selectors">
+      <div className="mt-9 selectors">
         <div className="t3 flex" id="about">
-          <hr className='mt-2'></hr><p className="mb-9 ml-2">ABOUT</p>
+          <hr className='mt-2'></hr><p className="mb-5 ml-2">ABOUT</p>
         </div>
       
         <div className="t3 flex" id="experience">
-          <hr className='mt-2'></hr><p className="mb-9 ml-2">EXPERIENCE</p>
+          <hr className='mt-2'></hr><p className="mb-5 ml-2">EXPERIENCE</p>
         </div>
 
         <div className="t3 flex" id="projects">
-          <hr className='mt-2'></hr><p className="mb-9 ml-2">PROJECTS</p>
+          <hr className='mt-2'></hr><p className="mb-5 ml-2">PROJECTS</p>
         </div>
       </div>
 
@@ -33,6 +33,9 @@ export default function title() {
         <a href="https://www.linkedin.com/in/kam-kooner-941371174/" target="_blank" className="social-icon"><i className="fab fa-linkedin"></i></a>
         <a href="https://www.google.com" target="_blank" className="social-icon"><i className="fab fa-instagram"></i></a>
       </div>
+
+      
+
 
       
     </div>

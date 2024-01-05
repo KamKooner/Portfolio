@@ -65,6 +65,7 @@ hr{
 }
 #about, #experience, #projects{
   font-size: 13px;
+  font-weight: lighter;
   transition: width 0.3s ease;
 }
 #about:hover hr, #experience:hover hr, #projects:hover hr {
@@ -74,7 +75,7 @@ hr{
 #about:hover, #experience:hover, #projects:hover{
   opacity:100% ; 
   color:white;
-  font-size: 16px;
+  font-weight: lighter;
 }
 #about:not(:hover) hr,#experience:not(:hover) hr,#projects:not(:hover) hr{
   width: 35px;
@@ -95,6 +96,21 @@ hr{
 
 .social-icon:hover {
   opacity: 100%;
-  color: #007bff; 
+  color: turquoise; 
+}
+.t3.des{
+  font-size: 13px;
+}
+
+.card:hover{
+  background-color: rgba(169, 169, 169, 0.05);
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.card:hover .company{
+  color:turquoise;
+}
+.company{
+  transition:  color 0.3s ease;
 }
 
