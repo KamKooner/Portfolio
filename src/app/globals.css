@@ -56,3 +56,45 @@ body {
 .about{
   position:relative;
 }
+
+.selectors{
+  font-size:13px;
+}
+hr{
+  width: 35px;
+}
+#about, #experience, #projects{
+  font-size: 13px;
+  transition: width 0.3s ease;
+}
+#about:hover hr, #experience:hover hr, #projects:hover hr {
+  width: 100px;
+  transition: width 0.3s ease;
+}
+#about:hover, #experience:hover, #projects:hover{
+  opacity:100% ; 
+  color:white;
+  font-size: 16px;
+}
+#about:not(:hover) hr,#experience:not(:hover) hr,#projects:not(:hover) hr{
+  width: 35px;
+  transition: width 0.3s ease;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icon {
+  margin-right: 25px;
+  opacity:60%;
+  color: white; 
+  font-size: 30px;
+  transition: color 0.3s ease; 
+}
+
+.social-icon:hover {
+  opacity: 100%;
+  color: #007bff; 
+}
+
