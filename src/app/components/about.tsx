@@ -1,8 +1,17 @@
+'use client'
 import Experience from './experience';
+import Image from 'next/image'
+import { useState } from 'react';
+import React, { useEffect } from 'react';
 
 export default function about() {
+    const [isActive, setIsActive] = useState(false);
+
+    useEffect(() => {
+      setIsActive(true);
+    }, []);
   return (
-    <div className="ml-8 about flex flex-col w-2/5 items-end ">
+    <div className={`fade-in-bot ${isActive ? 'active' : ''} ml-8 about flex flex-col w-2/5 items-end`}>
         <p className="w-full mb-4 t3">Back in 2012, I decided to try my hand at creating custom Tumblr themes and tumbled head first into the rabbit hole of coding and web development.
         Fast-forward to today, and I’ve had the privilege of building software for an advertising agency, a start-up, a student-led design studio, and a huge corporation.</p>
 

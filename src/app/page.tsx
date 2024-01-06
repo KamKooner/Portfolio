@@ -1,4 +1,5 @@
 // pages/index.js
+import { useState } from 'react';
 
 import React, { useEffect } from 'react';
 import Title from './components/title';

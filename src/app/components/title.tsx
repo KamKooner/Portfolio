@@ -1,8 +1,18 @@
+'use client'
 import Image from 'next/image'
+import { useState } from 'react';
+import React, { useEffect } from 'react';
+
 
 export default function title() {
+  const [isActive, setIsActive] = useState(false);
+
+  useEffect(() => {
+    setIsActive(true);
+  }, []);
+
   return (
-    <div className="title flex flex-col w-1/3 items-start">
+    <div className={`fade-in-top ${isActive ? 'active' : ''} title flex flex-col w-1/3 items-start`}>
       <div>
         <p className="t1">Kam Kooner</p>
         <p className="t2 ">Experienced Software Engineer</p>
@@ -28,10 +38,13 @@ export default function title() {
       </div>
 
 
+
       <div className="social-icons mt-[350px]">
         <a href="https://github.com/KamKooner" target="_blank" className="social-icon"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/kam-kooner-941371174/" target="_blank" className="social-icon"><i className="fab fa-linkedin"></i></a>
         <a href="https://www.google.com" target="_blank" className="social-icon"><i className="fab fa-instagram"></i></a>
+        <a href="https://www.google.com" target="_blank" className="social-icon ml-12 down"><i className="fa fa-download"></i><span className="ml-2 text-[16px]">Resume</span></a>
+        
       </div>
 
       

@@ -94,6 +94,10 @@ hr{
   transition: color 0.3s ease; 
 }
 
+.down{
+  font-size: 28px;
+}
+
 .social-icon:hover {
   opacity: 100%;
   color: turquoise; 
@@ -114,3 +118,24 @@ hr{
   transition:  color 0.3s ease;
 }
 
+.fade-in-top{
+  opacity: 0 ; /* Set initial opacity to 0 */
+  transform: translateY(-100px); /* Move the element up by 20px initially */
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in-top.active {
+  opacity: 1; /* Set opacity to 1 on active state (e.g., hover, focus, or using JavaScript) */
+  transform: translateY(0); /* Reset the transform to its original position */
+}
+
+.fade-in-bot{
+  opacity: 0 ; 
+  transform: translateY(100px); 
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in-bot.active {
+  opacity: 1; 
+  transform: translateY(0);
+}

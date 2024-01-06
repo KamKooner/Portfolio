@@ -26,11 +26,11 @@ Submissions , Claim distribution backend, etc.)
 
         <div className="flex card p-4 rounded">
             <div className="flex-1 p-3 w-fit t3 des">
-                Nov 2022 – Nov 2023
+            Jul 2022 - Nov 2022
             </div>
             <div className="flex-2 p-3 w-4/5">
                 <div className="flex text-[16px] opacity-90 text-white company">
-                    Willbear.io
+                    Willbear.io - London, UK (Remote)
                 </div>
 
                 <div className="flex t3">
