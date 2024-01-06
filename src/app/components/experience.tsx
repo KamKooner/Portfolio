@@ -3,6 +3,7 @@
 export default function experience() {
     return (
       <div className="w-full mt-20">
+        <div className="t2">Work Experience</div>
         <div className="flex card p-4 rounded mb-10">
             <div className="flex-1 p-3 w-fit t3 des">
                 Nov 2022 – Nov 2023
@@ -37,11 +38,12 @@ Submissions , Claim distribution backend, etc.)
                     Front End Dev Intern
                 </div>
 
-                <div className=" mt-3 flex t3 des">
+                <div className=" mt-3 flex t3 des mb-0">
                 Developed UI prototypes that attracted $25,000 investor. Prototypes consisted of: Investment Tool education platform financial literacy education platform. Front End Development (React, Figma)
                 </div>
             </div>
         </div>
+
 
 
       </div>

@@ -1,5 +1,4 @@
 'use client'
-import Image from 'next/image'
 import { useState } from 'react';
 import React, { useEffect } from 'react';
 
@@ -16,8 +15,8 @@ export default function title() {
       <div>
         <p className="t1">Kam Kooner</p>
         <p className="t2 ">Experienced Software Engineer</p>
-        <p className="t3 mt-4">I build pixel-perfect, accessible products </p>
-        <p className='t3'>for the web and beyond.</p>
+        <p className="t3 mt-4">Modelled off Brittany Chiang's portfolio </p>
+        <p><span className='t3'>Coded from the ground up - </span><span className='!opacity-100 text-white'>here</span> </p>
       </div>
 
 
@@ -34,6 +33,10 @@ export default function title() {
 
         <div className="t3 flex" id="projects">
           <hr className='mt-2'></hr><p className="mb-5 ml-2">PROJECTS</p>
+        </div>
+
+        <div className="t3 flex" id="projects">
+          <hr className='mt-2'></hr><p className="mb-5 ml-2">PROBLEM SOLVING</p>
         </div>
       </div>
 
