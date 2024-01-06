@@ -5,10 +5,43 @@ import React, { useEffect } from 'react';
 
 export default function title() {
   const [isActive, setIsActive] = useState(false);
+  const [scrollY, setScrollY] = useState(0);
+
+  var isAbout = true;
+  var isExperience = false;
+  var isProject = false;
+
 
   useEffect(() => {
     setIsActive(true);
-  }, []);
+
+    const handleScroll = () => {
+      setScrollY(document.documentElement.scrollTop);
+      
+      //classify the page section based on scroll y
+      //at less than 524 highlight about
+      if (scrollY<524){
+        isAbout == true;
+        [isExperience, isProject] = [false, false]
+        
+      }
+      //525 and above, 1300 and below highlight Experience
+      else if(scrollY>=525 && scrollY <=1300){
+        isExperience = true;
+        [isAbout, isProject] = [false, false]
+      }//1301 and above, 2820 and below highlight projects 
+      else if(scrollY >= 1301){
+        isProject = true;
+        [isAbout, isExperience] = [false, false]
+      }
+      console.log(isAbout, isExperience, isProject)
+      
+      
+    };
+
+    
+    window.addEventListener('scroll', handleScroll);
+  }, [scrollY]);
 
   return (
     <div className={`fade-in-top ${isActive ? 'active' : ''} title flex flex-col w-1/3 items-start`}>
