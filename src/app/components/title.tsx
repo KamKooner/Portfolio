@@ -33,10 +33,7 @@ export default function title() {
       else if(scrollY >= 1301){
         isProject = true;
         [isAbout, isExperience] = [false, false]
-      }
-      console.log(isAbout, isExperience, isProject)
-      
-      
+      }      
     };
 
     
