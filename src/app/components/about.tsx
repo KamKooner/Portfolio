@@ -3,7 +3,7 @@ import Experience from './experience';
 import { useState } from 'react';
 import React, { useEffect } from 'react';
 import Projects from './projects';
-import ProblemSolving from '../problemSolving';
+import ProblemSolving from './problemSolving';
 
 export default function about() {
     const [isActive, setIsActive] = useState(false);
