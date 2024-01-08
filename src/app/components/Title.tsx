@@ -3,7 +3,7 @@ import { useState } from 'react';
 import React, { useEffect } from 'react';
 
 
-export default function title() {
+export default function Title() {
   const [isActive, setIsActive] = useState(false);
   const [scrollY, setScrollY] = useState(0);
 
