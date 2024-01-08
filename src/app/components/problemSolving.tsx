@@ -7,4 +7,4 @@ export default function problemSolving() {
             <div className="t2">Problem Solving Abilities (Coming Soon)</div>
         </div>
     )
-}
+}//f
