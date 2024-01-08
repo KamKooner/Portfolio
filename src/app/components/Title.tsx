@@ -45,8 +45,9 @@ export default function Title() {
       <div>
         <p className="t1">Kam Kooner</p>
         <p className="t2 ">Experienced Software Engineer</p>
+        
+        <p><span className='t3'>Let me introduce myself... </span></p>
         <p className="t3 mt-4">Inspired by Brittany Chiang's designs </p>
-        <p><span className='t3'>Technical expertise, and the design skills to back it up - </span></p>
       </div>
 
 

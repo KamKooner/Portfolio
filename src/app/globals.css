@@ -48,6 +48,14 @@ body {
   color: white;
   opacity: 60%;
 }
+
+.t4{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  color: white;
+  opacity: 60%;
+}
 .title{
   position:fixed;
 }
@@ -81,7 +89,7 @@ hr{
 }
 
 .activeSelector{
-  
+
 }
 
 .social-icons {
