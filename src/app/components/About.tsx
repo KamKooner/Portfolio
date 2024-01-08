@@ -5,7 +5,7 @@ import React, { useEffect } from 'react';
 import Projects from './projects';
 import ProblemSolving from './problemSolving';
 
-export default function about() {
+export default function About() {
     const [isActive, setIsActive] = useState(false);
 
     useEffect(() => {
