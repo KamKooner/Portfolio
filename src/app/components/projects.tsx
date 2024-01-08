@@ -7,7 +7,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/dukaan.png" alt="Image Description" width={80} height={10} />
+                <Image src="images/dukaan.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
