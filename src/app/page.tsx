@@ -1,9 +1,9 @@
 // pages/index.js
 import React, { useEffect } from 'react';
 import Title from './components/title';
-import About from './components/about';
-import Flashlight from './components/flashlight';
 
+import Flashlight from './components/flashlight';
+import About from './components/About';
 export default function Home() {
   
 

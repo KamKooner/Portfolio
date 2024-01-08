@@ -138,7 +138,7 @@ export default function projects() {
                     </div>
 
                     <div className=" mt-3 flex t3 des">
-                    • Uses html, css, and javascript. On clicking "Generate passwords" The generate function produces 4 unique passwords of which the user may select any for their personal use. 
+                    • Uses html, css, and javascript. On clicking Generate passwords The generate function produces 4 unique passwords of which the user may select any for their personal use. 
                     • The password contains upper/lower case alphabet characters, numerals, and symbols
                     </div>
                 </div>
@@ -157,8 +157,8 @@ export default function projects() {
                         Html, CSS, Javascript
                     </div>
 
-                    <div className=" mt-3 flex t3 des">
-                    • Created when I was first learning to pull from API's, the app provides a list of things to do- pulled from a public api
+                    <div className="mt-3 flex t3 des">
+                    • Created when I was first learning to pull from APIs, the app provides a list of things to do- pulled from a public api
 
                     </div>
                 </div>
@@ -178,7 +178,7 @@ export default function projects() {
                     </div>
 
                     <div className=" mt-3 flex t3 des">
-                    • A joke to practice my pure CSS skills, a "business card",  for my video game character. 
+                    • A joke to practice my pure CSS skills, a business card,  for my video game character. 
                     </div>
                 </div>
             </div>
