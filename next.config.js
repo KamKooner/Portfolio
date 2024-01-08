@@ -7,7 +7,4 @@ const nextConfig = {
   output: 'out/',
 };
 
-module.exports = {
-  // other configurations...
-  output: 'out', // Specify the output directory
-};
+module.exports = nextConfig;
