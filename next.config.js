@@ -9,10 +9,5 @@ const nextConfig = {
 
 module.exports = {
   // other configurations...
-  generateStaticParams: async () => {
-    return {
-      '/': { page: '/' }, // Export the root page
-      // Add other paths as needed
-    };
-  },
+  output: 'out', // Specify the output directory
 };
