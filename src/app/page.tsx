@@ -3,7 +3,7 @@ import React, { useEffect } from 'react';
 import Title from './components/title';
 
 import Flashlight from './components/flashlight';
-import About from './components/About';
+import About from './components/about';
 export default function Home() {
   
 
