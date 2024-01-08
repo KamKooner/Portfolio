@@ -28,7 +28,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/openlecture.jpg" alt="Image Description" width={80} height={10} />
+                <Image src="images/openlecture.jpg" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -48,7 +48,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/spring.png" alt="Image Description" width={80} height={10} />
+                <Image src="images/spring.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -67,7 +67,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/mal.png" alt="Image Description" width={80} height={10} />
+                <Image src="images/mal.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -86,7 +86,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/cosine.png" alt="Image Description" width={80} height={30} />
+                <Image src="images/cosine.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -106,7 +106,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/airbnb.png" alt="Image Description" width={80} height={30} />
+                <Image src="images/airbnb.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -126,7 +126,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/pass.png" alt="Image Description" width={80} height={30} />
+                <Image src="images/pass.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -146,7 +146,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/bored.jpg" alt="Image Description" width={80} height={30} />
+                <Image src="images/bored.jpg" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -166,7 +166,7 @@ export default function projects() {
 
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="/images/rs.png" alt="Image Description" width={80} height={30} />
+                <Image src="images/rs.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
