@@ -1,8 +1,4 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    experimental: {
-        images: true, // Enable the images experimental feature
-      },
-}
+const nextConfig = {}
 
 module.exports = nextConfig
