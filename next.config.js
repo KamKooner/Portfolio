@@ -5,7 +5,7 @@ const nextConfig = {
   // Remove the following line, as we're handling export in GitHub Actions
   // output: 'out/',
   // Add the following line for static HTML export
-  output: 'out/',
+  output: 'standalone' | 'export',
 };
 
 module.exports = nextConfig;
