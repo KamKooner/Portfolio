@@ -5,13 +5,14 @@ export default function projects() {
             <hr className="w-full mb-20"></hr>
             <div className="t2">Projects</div>
 
+            <a href="https://github.com/SaoodImran123/duqaan" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/dukaan.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
-                        DesiDukaan.com
+                        DesiDukaan.com (Private Repo)
                     </div>
 
                     <div className="flex t3">
@@ -25,7 +26,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/openlecture_frontend" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/openlecture.jpg" alt="Image Description" width={80} height={10} />
@@ -45,7 +48,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/openlecture_backend" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/spring.png" alt="Image Description" width={80} height={10} />
@@ -64,7 +69,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/Anime-Watchlist-Website" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/mal.png" alt="Image Description" width={80} height={10} />
@@ -83,7 +90,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/Plagiarism-Detector" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/cosine.png" alt="Image Description" width={80} height={30} />
@@ -103,7 +112,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/React-Airbnb-Experiences-Homepage-Clone" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/airbnb.png" alt="Image Description" width={80} height={30} />
@@ -122,8 +133,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
-
+            <a href="https://github.com/KamKooner/Password-Generator" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/pass.png" alt="Image Description" width={80} height={30} />
@@ -143,7 +155,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/Bored-Bot" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/bored.jpg" alt="Image Description" width={80} height={30} />
@@ -163,7 +177,9 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
+            <a href="https://github.com/KamKooner/Runescape-Business-Card" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/rs.png" alt="Image Description" width={80} height={30} />
@@ -182,6 +198,7 @@ export default function projects() {
                     </div>
                 </div>
             </div>
+            </a>
 
 
         </div>

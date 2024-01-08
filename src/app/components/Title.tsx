@@ -64,9 +64,9 @@ export default function Title() {
           <hr className='mt-2'></hr><p className="mb-5 ml-2">PROJECTS</p>
         </div>
 
-        <div className="t3 flex" id="projects">
+        {/* <div className="t3 flex" id="projects">
           <hr className='mt-2'></hr><p className="mb-5 ml-2">PROBLEM SOLVING</p>
-        </div>
+        </div> */}
       </div>
 
 
@@ -74,8 +74,8 @@ export default function Title() {
       <div className="social-icons mt-[350px]">
         <a href="https://github.com/KamKooner" target="_blank" className="social-icon"><i className="fab fa-github"></i></a>
         <a href="https://www.linkedin.com/in/kam-kooner-941371174/" target="_blank" className="social-icon"><i className="fab fa-linkedin"></i></a>
-        <a href="https://www.google.com" target="_blank" className="social-icon"><i className="fab fa-instagram"></i></a>
-        <a href="https://www.google.com" target="_blank" className="social-icon ml-12 down"><i className="fa fa-download"></i><span className="ml-2 text-[16px]">Resume</span></a>
+        {/* <a href="https://www.google.com" target="_blank" className="social-icon"><i className="fab fa-instagram"></i></a> */}
+        <a href="https://www.google.com" target="_blank" className="social-icon down"><i className="fa fa-download"></i><span className="ml-2 text-[16px]">Resume</span></a>
         
       </div>
 

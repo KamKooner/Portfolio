@@ -2,8 +2,10 @@
 
 export default function experience() {
     return (
-      <div className="w-full mt-20">
+      <div className="w-full mt-20 ">
         <div className="t2">Work Experience</div>
+
+        <a href="https://www.infosys.com" target="_blank">
         <div className="flex card p-4 rounded mb-10">
             <div className="flex-1 p-3 w-fit t3 des">
                 Nov 2022 – Nov 2023
@@ -24,7 +26,9 @@ Submissions , Claim distribution backend, etc.)
                 </div>
             </div>
         </div>
+        </a>
 
+        <a href="https://wave.enterprises" target="_blank">
         <div className="flex card p-4 rounded">
             <div className="flex-1 p-3 w-fit t3 des">
             Jul 2022 - Nov 2022
@@ -43,6 +47,7 @@ Submissions , Claim distribution backend, etc.)
                 </div>
             </div>
         </div>
+        </a>
 
 
 
