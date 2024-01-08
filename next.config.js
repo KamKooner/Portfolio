@@ -7,4 +7,11 @@ const nextConfig = {
   output: 'out/',
 };
 
-module.exports = nextConfig;
+module.exports = {
+  // other configurations...
+  exportPathMap: async function () {
+    return {
+      '/': { page: '/' }, // Export the root page
+    };
+  },
+};
