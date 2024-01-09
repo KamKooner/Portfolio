@@ -48,9 +48,8 @@ const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
   var divId = event.currentTarget.id;
   switch (divId){
     case 'about':
-      setIsAbout(true);
-      setIsExperience(false);
-      setIsProject(false);
+  
+
       window.scrollTo({
         top: 0,
         behavior: 'smooth',
@@ -58,9 +57,9 @@ const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
       
       break;
     case 'experience':
-      setIsAbout(false);
-      setIsExperience(true);
-      setIsProject(false);
+
+
+
       window.scrollTo({
         top: 400, 
         behavior: 'smooth',
@@ -68,9 +67,8 @@ const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
 
       break;
     case 'projects':
-      setIsAbout(false);
-      setIsExperience(false);
-      setIsProject(true);
+  
+
       window.scrollTo({
         top: 1100, 
         behavior: 'smooth',
