@@ -8,7 +8,7 @@ export default function projects() {
             <a href="https://imgur.com/a/O0dWBcv" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/dukaan.png" alt="Image Description" width={80} height={10} />
+                <Image className="border-2 border-grey" src="images/dukaan.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -31,7 +31,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/openlecture_frontend" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/openlecture.jpg" alt="Image Description" width={80} height={10} />
+                <Image className="border border-grey" src="images/openlecture.jpg" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -50,10 +50,32 @@ export default function projects() {
             </div>
             </a>
 
+            <a href="https://github.com/KamKooner/Portfolio" target="_blank">
+            <div className="flex card p-4 rounded mb-10">
+                <div className="flex-1 p-3 w-fit t3 des">
+                <Image className="border border-grey" src="images/portfolio.png " alt="Image Description" width={95} height={30} />
+                </div>
+                <div className="flex-2 p-3 w-4/5">
+                    <div className="flex text-[16px] opacity-90 text-white company">
+                        Portfolio 
+                    </div>
+
+                    <div className="flex t3">
+                        NextJs, Tailwind
+                    </div>
+
+                    <div className=" mt-3 flex t3 des">
+                    • The repository for my portfolio website
+                    • Inspired by Brittany Chiang's Design Skills, coded from the ground up by me.
+                    </div>
+                </div>
+            </div>
+            </a>
+
             <a href="https://github.com/KamKooner/openlecture_backend" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/spring.png" alt="Image Description" width={80} height={10} />
+                <Image className="border border-white" src="images/spring.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -74,7 +96,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/Anime-Watchlist-Website" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/mal.png" alt="Image Description" width={80} height={10} />
+                <Image className="border border-grey" src="images/mal.png" alt="Image Description" width={80} height={10} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -95,7 +117,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/Plagiarism-Detector" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/cosine.png" alt="Image Description" width={80} height={30} />
+                <Image className="border border-grey" src="images/cosine.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -117,7 +139,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/React-Airbnb-Experiences-Homepage-Clone" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/airbnb.png" alt="Image Description" width={80} height={30} />
+                <Image className="border border-grey" src="images/airbnb.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -138,7 +160,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/Password-Generator" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/pass.png" alt="Image Description" width={80} height={30} />
+                <Image className="border border-grey" src="images/pass.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -160,7 +182,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/Bored-Bot" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/bored.jpg" alt="Image Description" width={80} height={30} />
+                <Image className="border border-grey" src="images/bored.jpg" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
@@ -182,7 +204,7 @@ export default function projects() {
             <a href="https://github.com/KamKooner/Runescape-Business-Card" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
-                <Image src="images/rs.png" alt="Image Description" width={80} height={30} />
+                <Image className="border border-grey" src="images/rs.png" alt="Image Description" width={80} height={30} />
                 </div>
                 <div className="flex-2 p-3 w-4/5">
                     <div className="flex text-[16px] opacity-90 text-white company">
