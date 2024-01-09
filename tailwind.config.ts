@@ -9,7 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        turquoise: '#40E0D0', // Replace with your desired turquoise color code
+        turquoise: '#40E0D0', 
+        bgCol: 'rgb(27, 42, 48)'
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

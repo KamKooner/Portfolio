@@ -5,7 +5,7 @@ export default function projects() {
             <hr className="w-full mb-20"></hr>
             <div className="t2">Projects</div>
 
-            <a href="https://github.com/SaoodImran123/duqaan" target="_blank">
+            <a href="https://imgur.com/a/O0dWBcv" target="_blank">
             <div className="flex card p-4 rounded mb-10">
                 <div className="flex-1 p-3 w-fit t3 des">
                 <Image src="images/dukaan.png" alt="Image Description" width={80} height={10} />
