@@ -102,7 +102,7 @@ const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
           {isAbout ? (
             <span className='flex'>
               <hr className='mt-2 w-[100px] transition-width ease-in-out duration-300'></hr>
-              <p className="mb-5 ml-2 font-light opacity-100 text-turquoise">ABOUT</p>
+              <p className="mb-5 ml-2 font-bold opacity-100 text-turquoise">ABOUT</p>
             </span>
           ) : (
             <span className='flex'>
@@ -116,7 +116,7 @@ const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
           {isExperience ? (
             <span className='flex'>
               <hr className='mt-2 w-[100px] transition-width ease-in-out duration-300'></hr>
-              <p className="mb-5 ml-2 font-light  opacity-100 text-turquoise">EXPERIENCE</p>
+              <p className="mb-5 ml-2 font-bold  opacity-100 text-turquoise">EXPERIENCE</p>
             </span>
           ) : (
             <span className='flex'>
@@ -131,7 +131,7 @@ const handleClick = (event: React.MouseEvent<HTMLDivElement>) =>{
           {isProject ? (
             <span className='flex'>
               <hr className='mt-2 w-[100px] transition-width ease-in-out duration-300'></hr>
-              <p className="mb-5 ml-2 font-light opacity-100 text-turquoise">PROJECT</p>
+              <p className="mb-5 ml-2 font-bold opacity-100 text-turquoise">PROJECT</p>
             </span>
           ) : (
             <span className='flex'>
