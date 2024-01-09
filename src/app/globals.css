@@ -137,11 +137,5 @@ hr{
   opacity: 1 !important;
   color: rgba(255, 255, 255, 0.05)
 }
-.flashlight {
-  position: absolute;
-  transform: translate(var(--mouse-x), var(--mouse-y));
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 9999;
-}
+
+
