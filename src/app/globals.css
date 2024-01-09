@@ -69,28 +69,11 @@ body {
 hr{
   width: 35px;
 }
-#about, #experience, #projects{
-  font-size: 13px;
-  font-weight: lighter;
-  transition: width 0.3s ease;
-}
 #about:hover hr, #experience:hover hr, #projects:hover hr {
   width: 100px;
   transition: width 0.3s ease;
 }
-#about:hover, #experience:hover, #projects:hover{
-  opacity:100% ; 
-  color:white;
-  font-weight: lighter;
-}
-#about:not(:hover) hr,#experience:not(:hover) hr,#projects:not(:hover) hr{
-  width: 35px;
-  transition: width 0.3s ease;
-}
 
-.activeSelector{
-
-}
 
 .social-icons {
   display: flex;
