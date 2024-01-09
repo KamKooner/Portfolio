@@ -19,7 +19,8 @@
 }
 
 body {
-  background-color: rgb(27, 42, 48);
+  background: linear-gradient(to bottom right, rgb(57, 84, 94) 1%, rgb(27, 42, 48) 100%);
+  background-attachment: fixed;
   margin: 0;
   overflow: auto;
   transition: background-color 0.3s ease-out;
